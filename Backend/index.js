@@ -1,5 +1,5 @@
 const express = require("express");
-const routes = require("./routes/getCryptos.routes");
+const routes = require("./src/api/routes/getCryptos.routes");
 const app = express();
 const PORT = process.env.PORT || 3000;
 require("dotenv").config();
